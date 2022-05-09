@@ -1,0 +1,70 @@
+1. Open Visual Studio and create new C# Window Application.
+
+2. In Server Explorer ->Select Data Connections->Right Click-> Select Create New
+SQL server Database.
+
+3. Specify in wizard Data Source=. Or actual server name and Database Name=HR .
+
+4. Go to Server Explore-> Expand database HR->Right-click on Tables and select Add
+New Table.
+The Table Designer opens and shows a grid with one default row, which represents a
+single column in the table that you're creating. By adding rows to the grid, you'll add
+columns in the table.
+
+5. In the grid, add a row for each of the following entries:
+
+Column name Data type Allow nulls
+
+EmpID nchar(5) False (cleared)
+EName nvarchar(50) False (cleared)
+ContactName nvarchar (50) True (selected)
+Phone nvarchar (24) True (selected)
+
+
+
+
+6. Open the shortcut menu for the Tables node, select Refresh, and then expand
+the Tables node.
+
+7. Open the shortcut menu for the emp table, and then select Show Table Data or View
+Data.
+
+8. Add 5 records.
+Retrieving Data from database using DataGridView Control.
+
+9. Drag and drop DataGridView control from toolbox to form window.
+
+10. Now choose a data source by right clicking on the DataGridView and then click on
+Add Project Data Source. We will be adding a new data source to the project right
+now.
+Figure 3.
+
+11. Now select data source type, I am choosing Database in this example.
+After selecting Database, click next.
+Figure 4
+
+12. Choose your data connection, if you already have a connection available select
+that, otherwise make new connection, and follow the steps and after that click next.
+
+
+13. Figure 5.
+
+14. Add Connection Wizard.
+
+
+15. Figure 6
+
+16. Choose you database objects, and click next, if you want local database caching then
+check enable local database caching check box and click next.
+
+17.
+
+18. Figure 7.
+
+19. Select table for caching.
+Figure 8.
+
+20. Now your data source is created, right click on DataGridView control and on the
+option Choose Data Source, select the data source you just created.
+
+21. Build and Run Application.

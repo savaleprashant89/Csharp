@@ -1,0 +1,31 @@
+using System;
+class Program
+{
+Program()
+{
+Console.WriteLine("Constructor called");
+}
+~Program()
+{
+Console.WriteLine("Destructor invoke");
+}
+public static void Main()
+{
+Program p = new Program();
+Console.ReadLine();
+}
+}
+
+Output:-
+
+Constructor called
+
+
+
+
+
+
+
+
+
+

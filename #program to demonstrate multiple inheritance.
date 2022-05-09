@@ -1,0 +1,41 @@
+using System;
+class student
+{
+public void baseclass()
+{
+Console.WriteLine("Base class");
+}
+}
+interface exam
+{
+void interfacemethod();
+}
+class Program:student,exam
+{
+public void deriveclass2()
+{
+Console.WriteLine("Derived class of student");
+}
+public void interfacemethod()
+{
+Console.WriteLine("interface method");
+}
+static void Main(string[] args)
+{
+Program p = new Program();
+p.baseclass();
+p.interfacemethod();
+p.deriveclass2();
+Console.ReadLine();
+}
+}
+
+
+Output:-
+Base class
+interface method
+Derived class of student
+
+
+
+

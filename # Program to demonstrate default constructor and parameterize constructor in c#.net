@@ -1,0 +1,24 @@
+using System;
+class Program
+{
+Program() // Non Paramiterize Constrctor
+{
+Console.WriteLine("Non Paramiterize Constrctor");
+}
+Program(string name) // Paramiterize Constrctor
+{
+Console.WriteLine("My Name is: "+name);
+}
+static void Main(string[] args)
+{
+Program p = new Program();
+Program p2 = new Program("Prashant");
+Console.ReadLine();
+}
+}
+
+Output:-
+
+Non Paramiterize Constrctor
+My Name is:Prashant
+
